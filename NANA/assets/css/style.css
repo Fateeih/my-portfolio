@@ -1,0 +1,348 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+*{
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+#main-body{ 
+  width: 100%;
+}
+
+#main{
+  width: 100%;
+  padding-top: 1%;
+}
+
+#housing-section{
+  width: 68%;
+  position: absolute;
+  margin-top: 5%;
+}
+
+.housing-section-title{
+  font-size: 40px;
+  font-weight: bolder;
+  padding-left: 10%;
+  color: #bad80a;
+}
+
+#housing-section h1{
+  font-size: 55px;
+}
+
+.housing-section-sub-title{
+  width: 95%;
+  height: 80px;
+  padding-top:2%;
+  margin-top: 1%; 
+  display: inline-block;
+  background-color: #bad80a;
+  word-spacing: 50%;
+  letter-spacing: 35%;
+}
+
+.sub-title-text{
+  padding-left:10%;
+}
+
+.housing-section-image-container{
+  width: 97%;
+  text-align: center;
+  height: 250px;
+}
+
+.form-row{
+  display: flex;
+  margin-bottom: 13%;
+}
+
+.sample{
+  margin-top: 1%;
+  margin-right: 4%;
+}
+
+.sample-section{
+  margin-top: 1%;
+  padding-left: 10%;
+  padding-right: 5%;
+  font-size: 20px;
+  word-spacing: 10%;
+}
+
+.pallets-sign-container{
+  width: 3%;
+  position: absolute;
+  float: left;
+  margin-top: 7%;
+  text-align: center;
+  margin-left: 48%;
+}
+
+.housing-form-label{
+  width: 50%;
+  text-align: right;
+  font-size: 15px;
+  position: absolute;
+}
+
+.question-standard-result-container{
+  position: absolute;
+  float: right;
+  margin-left: 2%;
+  width: 30%;
+  background-color: #bad80a;
+  height: 50px;
+  text-align: center;
+}
+
+.standard-result-text{
+  width: 100%;
+  margin-top: 8%;
+  display: inline-block;
+}
+
+.pallets-size{
+  width: 30%;
+  position: absolute;
+  float: right;
+  margin-left: 2%;
+  display: flex;
+}
+
+.pallets-size-text{
+  width: 100%;
+  display: inline-block;
+  margin-top: 8%;
+}
+
+.size-box-one{
+  width: 43%;
+  position: absolute;
+  float: left;
+  background-color: #bad80a;
+  height: 50px;
+  text-align: center;
+}
+
+.size-box-two{
+  width: 43%;
+  position: absolute;
+  float: right;
+  background-color: #bad80a;
+  height: 50px;
+  text-align: center;
+}
+
+.left-region-container{
+  width: 40%;
+  position: absolute;
+  word-spacing: 20%;
+}
+
+.right-region-container{
+  width: 40%;
+  position: absolute;
+  float: right;
+  text-align: right;
+  word-spacing: 20%;
+}
+
+.right-region-container-two{
+  width: 40%;
+  position: absolute;
+  float: right;
+  word-spacing: 20%;
+}
+
+.region{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 4%;
+}
+
+.region-title-one{
+  color: #2894b0;
+}
+
+.region-title-two{
+  color: #89d55b;
+}
+
+.region-title-three{
+  color: #bad80a;
+  text-align: right;
+}
+
+.url{
+  margin-top: 40%;
+  font-weight: bold;
+}
+
+#definitions{
+  width: 32%;
+  padding: 1%;
+  position: absolute;
+  float: right;
+  word-spacing: 10%;
+  background-image: url('../img/gradient.jpg');
+  background-size: cover;
+  height: 1110px;
+}
+
+.definition-header{
+  letter-spacing: 35%;
+  margin: 10% 0 5% 0;
+}
+
+.def-info{
+  margin-bottom: 4%;
+}
+
+.definition-section-image-container{
+  width: 92%;
+  height: 90px;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 13px; 
+  display: inline-block;
+}
+
+.image-size{
+  width: 100%;
+  height: 100%;
+}
+
+.image-size-two{
+  width: 60%;
+  height: 10%;
+}
+
+.form-info{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.estimator-form{
+  box-shadow: 1px 1px 2px 2px #bad80a;
+  background-color: #f7f9fc;
+  width: 55%;
+  margin: 0px auto 0px auto;
+  padding: 1%;
+  border-radius: 2%;
+}
+
+.form-input{
+  height: 50px;
+  width: 100%;
+  border: 0px;
+  background-color: #bad80a;
+}
+
+.inputs-section{
+  margin-left: 2%;
+  width: 40%;
+}
+
+
+.custom-field{
+  width: 40%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.custom-input-field-container{
+  width: 49%;
+  float: left;
+}
+
+.custom-field-form-input{
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  background-color: #bad80a;
+}
+
+.form-select{
+  height: 50px;
+  width: 100%;
+  border: 0px;
+  background-color: #bad80a;
+}
+
+.form-label{
+  font-weight: bold;
+  margin-top: 2%;
+  width: 50%;
+  text-align: right;
+}
+
+.sign-container{
+  width: 7%;
+  margin-top: 6%;
+  text-align: center;
+  margin-left: 1%;
+}
+
+.estimator-btn-section{
+  text-align: center;
+  margin-top: 4%;
+}
+
+button{
+  width: 20%;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cal-button{
+  background-color: #2894b0;  
+  color: #f7f9fc; 
+  border: 0px;
+  border-radius: 3px;
+}
+
+.download-button{
+  background-color: #bad80a;  
+  color: #f7f9fc; 
+  border: 0px;
+  border-radius: 3px;   
+}
+
+.estimator-form-row{
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.wrapper-page {
+  page-break-after: always;
+}
+
+.wrapper-page:last-child {
+  page-break-after: avoid;
+}
+
+.housing-section-title-four{
+  text-align: center;
+}
+
+.right-region-container-three{
+  width: 40%;
+  position: absolute;
+  float: left;
+  text-align: left ;
+}
+
+.right-region-container-three{
+  width: 40%;
+  position: absolute;
+  float: right;
+  text-align: right;
+}
